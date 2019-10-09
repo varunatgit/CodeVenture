@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeVenture-Infox</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.css">
+
+    
+
+    <style>
+        body {
+background-image: url(" images/gradient.jpg");
+      background-repeat:no-repeat;
+     background-size:cover;
+} 
+</style>
+
+    
+
+  </head>
+  <body>
+      <nav class="navbar navbar-default" style = " background-color: black; ">
+          <div class="container-fluid">
+             <div class="navbar-header">
+                <img src = "images/logo.jpg" height  = "80 px">
+             </div>
+                <div class="collapse navbar-collapse">
+                   <ul class="nav navbar-nav navbar-right">
+                     <li><img src ="images/infox.jpg" height  = "80 px"></li>
+   
+                   </ul>
+                 </div>
+               </div>
+             </nav>
+   
+
+
+             <div class="container">
+<header class="jumbotron"  style="background:transparent url('images/locked1.jpg') no-repeat center center /cover">
+
+<h1 style = " color :rgb(128, 128, 128); text-shadow: 3px 2px rgb(150, 111, 111)">RIDDLES</h1>
+  <a href ="#anchora"><p  style="display:inline-block ">Problem A     |</p></a>
+  <a href ="#anchorb"><p style="display:inline-block">Problem B      |</p></a>
+  <a href ="#anchorc"><p style="display:inline-block ">Problem C    |</p></a>
+  <a href ="#anchord"><p style="display:inline-block ">Problem D     |</p></a>
+
+
+
+  <form action="/riddles" method="POST">
+    <div class="form-group" style="display:inline-block">
+    <input class="form-control" type="password" name="ridA" placeholder = "Solution for A">
+     </div>
+    <div class="form-group" style="display:inline-block">
+     <input class="form-control" type="password" name="ridB" placeholder = "Solution for B">
+  </div>
+  <div class="form-group" style="display:inline-block">
+    <input class="form-control" type="password" name="ridC" placeholder = "Solution for C">
+  </div>
+  <div class="form-group" style="display:inline-block">
+      <input class="form-control" type="password" name="ridD" placeholder = "Solution for D">
+    </div>
+  <div class="form-group"  style="display:inline-block">
+    <button class="btn btn-lg btn-primary btn-block"> Submit!</button>
+  </div>
+  </form>
+
+  <p style = " color :rgb(202, 202, 202)">Note:Page will keep reloading until all answers are correct.<br>These solutions will be used as input for corresponding coding problem</p>
+  </header>
+
+</div>
+
+<div class="container">
+  <header class="jumbotron">
+  <div class="container">
+  <h3 id = "anchora" style = " color :blue">Problem A</h3>
+    <p style="color:rgb(53, 52, 52) ">Sherlock relapsed again!! A dealer gave him 5 dose to take every 30 minutes. How many
+      minutes will it take him to finish the dose if he follows the dealers orders?</p>
+    </div>
+    </header>
+  </div>
+
+  <div class="container">
+  <header class="jumbotron">
+    <div class="container">
+    <h3 id = "anchorb" style = " color :blue">Problem B</h3>
+      <p  style="color:rgb(71, 70, 70) ">If three Policemen can catch three criminals in seven minutes, how many criminals can 
+        six policemen catch in seventy minutes?</p>
+      </div>
+      </header>
+    </div>
+  
+      <div class="container">
+    <header class="jumbotron">
+        <div class="container">
+        <h3 id ="anchorc" style = " color :blue">Problem C</h3>
+          <p  style="color:rgb(68, 67, 67) "> What is 100 multiplied by a 3 digit number that will give you the same anwer whether
+            you subtract 5 or divide by 5?</p>
+          </div>
+          </header>
+        </div>
+      
+          <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+            <h3 id = "anchord" style = " color :blue">Problem D</h3>
+              <p  style="color:rgb(65, 65, 65) ">Sherlock went to a clothing store in Baskerville. The owner has devised his own 
+                method of pricing items. A vest costs $16, socks costs $20, tie costs $12, and a blouse costs
+                $24. Using themethod, how much would Sherlock has to pay for a purchase of a coat and
+                a shirt??</p>
+              </div>
+              </header>
+            </div>
+             
+
+
+</div>
+</body>
+</html>
+
