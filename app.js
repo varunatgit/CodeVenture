@@ -40,8 +40,8 @@ app.post("/round1",function(req,res)
 
   var aa =2178309;
   var bb=925338;
-  var cc =34 ;
-  var dd =153;
+  var cc =792 ;
+  var dd =2;
 
   //NEW DISH TO DB
  
@@ -92,8 +92,8 @@ app.post("/riddles",function(req,res)
 
   var aa =120;
   var bb=60;
-  var cc =625 ;
-  var dd=36;
+  var cc =21 ;
+  var dd=16;
 
 
   //NEW DISH TO DB
